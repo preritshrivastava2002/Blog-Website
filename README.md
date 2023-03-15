@@ -23,4 +23,3 @@ This is a web application where user can publish their blogs. It has built-in fe
           
 ## Made by:
 ### Prerit Shrivastava [📝 LinkedIn](https://www.linkedin.com/in/prerit-shrivastava-1b4a52201/)
-# Blog-Website
