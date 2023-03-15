@@ -1,0 +1,14 @@
+<%- include ("partials/header"); -%>
+
+<h1>Home</h1>
+<p>All the post composed will be shown here...</p>
+
+<% journal.forEach((post)=>{ %>
+        <h1><%= post.title %></h1>
+        <p>
+                <%= post.body.substring(0,100) + "..." %>
+                <a href="/posts/<%=post._id%>">READ MORE</a>
+        </p>
+<% }) %>
+
+<%- include ("partials/footer"); -%>

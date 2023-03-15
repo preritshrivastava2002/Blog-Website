@@ -1,0 +1,13 @@
+<%- include ("partials/header"); -%>
+
+  <h1><%=thisPost.title%></h1>
+  <p><%=thisPost.body%></p>
+
+  <a href = '/update/<%=thisPost._id%>'> <button type="button" class="btn btn-primary">Update</button> </a>
+  <br>
+  <br>
+  <form action="/delete/<%=thisPost._id%>" method = 'post'>
+    <button type="submit" class="btn btn-danger">Delete</button>
+  </form>
+  
+<%- include("partials/footer"); -%>
