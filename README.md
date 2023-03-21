@@ -19,7 +19,7 @@ This is a web application where user can publish their blogs. It has built-in fe
           CONNECTION_URL="<MONGODB URI>"
        
     4. Run web-app on local host.
-          node app
+          node index
           
 ## Made by:
 ### Prerit Shrivastava [📝 LinkedIn](https://www.linkedin.com/in/prerit-shrivastava-1b4a52201/)
